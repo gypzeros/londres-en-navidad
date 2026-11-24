@@ -10,8 +10,8 @@ const mapURL = query => "https://www.google.com/maps/search/?api=1&query=" + enc
 const route = (origin, destination, waypoints = []) => "https://www.google.com/maps/dir/?api=1&origin=" + encodeURIComponent(origin + ", London") + "&destination=" + encodeURIComponent(destination + ", London") + "&travelmode=walking" + (waypoints.length ? "&waypoints=" + encodeURIComponent(waypoints.map(p => p + ", London").join("|")) : "");
 const routes = [
   [["Ruta a pie de Chinatown a Regent Street","Chinatown","Regent Street",["Covent Garden","Seven Dials","Outernet London"]]],
-  [["Sky Garden a Tower Pier por Borough Market","Sky Garden","Tower Pier",["Borough Market","Hay's Galleria","Tower Bridge"]],["Horario de Tower Pier a Canary Wharf","https://www.thamesclippers.com/plan-your-journey/timetable"]],
-  [["Trayecto en metro a Camden Town","https://tfl.gov.uk/plan-a-journey/"],["Ruta de luces por Mayfair","Trafalgar Square","The Connaught",["Fortnum & Mason","Mayfair Place"]],["Harrods a Winter Wonderland por Chelsea","Harrods","Hyde Park Winter Wonderland",["Duke of York Square"]]],
+  [["Metro de Mayfair a Sky Garden","https://tfl.gov.uk/plan-a-journey/"],["Sky Garden a Tower Pier por Borough Market","Sky Garden","Tower Pier",["Borough Market","Hay's Galleria","Tower Bridge"]],["Horario de Tower Pier a Canary Wharf","https://www.thamesclippers.com/plan-your-journey/timetable"]],
+  [["Trayecto en metro a Camden Town","https://tfl.gov.uk/plan-a-journey/"],["Camden Market al Museo de Historia Natural","https://www.google.com/maps/dir/?api=1&origin=Camden+Market+London&destination=Natural+History+Museum+London&travelmode=transit"],["Harrods a Winter Wonderland por Chelsea","Harrods","Hyde Park Winter Wonderland",["Duke of York Square"]]],
   []
 ];
 function progress() {
