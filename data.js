@@ -4,7 +4,7 @@ const days = [
     "date": 25,
     "title": "Primeras luces en el West End",
     "area": "Covent Garden · Soho",
-    "intro": "Llegáis a las 18:00. Las horas son orientativas desde que estéis en el centro. Empezad cenando en Chinatown y elegid Covent Garden o Regent Street según la hora. Las tiendas y algunos puestos pueden estar cerrados.",
+    "intro": "Dejad margen para llegar desde el aeropuerto y dejar las maletas. Las horas son orientativas desde que estéis en el centro. Empezad cenando en Chinatown y elegid Covent Garden o Regent Street según la hora. Las tiendas y algunos puestos pueden estar cerrados.",
     "photo": "https://assets.londonist.com/uploads/2025/11/i875/self-guided-london-christmas-lights-walking-tour-2025-regent-street-christmas-lights.png",
     "alt": "Ángeles luminosos en Regent Street",
     "groups": [
@@ -508,8 +508,8 @@ const days = [
     "day": "Sábado",
     "date": 28,
     "title": "Mañana de regreso",
-    "area": "Salida a las 10:00",
-    "intro": "El sábado queda libre para el traslado. Si os alojáis cerca de Notting Hill y ya tenéis margen calculado, podéis dar un paseo corto por el barrio antes de salir.",
+    "area": "Traslado al aeropuerto",
+    "intro": "El sábado queda libre para el traslado a Stansted. Consultad la ruta en la sección Viaje.",
     "photo": "https://cdn.mos.cms.futurecdn.net/fvvEkNQbdXQxdMVySJBJmj.jpg",
     "alt": "Esqueleto de ballena en la sala Hintze del Museo de Historia Natural",
     "groups": []
